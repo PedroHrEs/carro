@@ -44,6 +44,11 @@ public class DBService {
 
         Aluguel aluguel01 = new Aluguel(null, LocalDate.now(),null, "123123232", new BigDecimal("120,00"), Situacao.ANDAMENTO, cliente01, carro01);
 
-
+        clienteRepo.save(cliente01);
+        clienteRepo.save(cliente02);
+        locadoraRepo.save(locadora01);
+        carroRepo.save(carro01);
+        carroRepo.save(carro02);
+        aluguelRepo.save(aluguel01);
     }
 }
