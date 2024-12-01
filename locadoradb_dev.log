@@ -1,0 +1,165 @@
+2024-12-01T18:09:00.172-03:00  INFO 12192 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 12192 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-01T18:09:00.173-03:00  INFO 12192 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-01T18:09:00.202-03:00  INFO 12192 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-01T18:09:00.203-03:00  INFO 12192 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-01T18:09:00.658-03:00  INFO 12192 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01T18:09:00.713-03:00  INFO 12192 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 4 JPA repository interfaces.
+2024-12-01T18:09:01.142-03:00  INFO 12192 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-01T18:09:01.154-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-01T18:09:01.154-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01T18:09:01.200-03:00  INFO 12192 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-01T18:09:01.200-03:00  INFO 12192 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
+2024-12-01T18:09:01.224-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-01T18:09:01.390-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50c336ee
+2024-12-01T18:09:01.392-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-01T18:09:01.399-03:00  INFO 12192 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-01T18:09:01.496-03:00  INFO 12192 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01T18:09:01.538-03:00  INFO 12192 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-01T18:09:01.561-03:00  INFO 12192 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-01T18:09:01.739-03:00  INFO 12192 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01T18:09:01.801-03:00  INFO 12192 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-01T18:09:02.443-03:00  INFO 12192 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01T18:09:02.453-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-01T18:09:02.455-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-01T18:09:02.457-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-01T18:09:02.457-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-01T18:09:02.459-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-01T18:09:02.462-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-01T18:09:02.467-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-01T18:09:02.468-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-01T18:09:02.469-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-01T18:09:02.472-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-01T18:09:02.481-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-01T18:09:02.486-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-01T18:09:02.493-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-01T18:09:02.498-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-01T18:09:02.501-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-01T18:09:02.504-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-01T18:09:02.506-03:00  INFO 12192 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01T18:09:02.745-03:00  WARN 12192 --- [carro] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'devConfig': Invocation of init method failed
+2024-12-01T18:09:02.745-03:00  INFO 12192 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01T18:09:02.748-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-01T18:09:02.751-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-01T18:09:02.756-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-01T18:09:02.765-03:00  INFO 12192 --- [carro] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-01T18:09:02.778-03:00 ERROR 12192 --- [carro] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'devConfig': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.0.jar:3.4.0]
+	at com.prova.carro.CarroApplication.main(CarroApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
+Caused by: java.lang.NumberFormatException: Character , is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:608) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:497) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:903) ~[na:na]
+	at com.prova.carro.service.DBService.initDB(DBService.java:45) ~[classes/:na]
+	at com.prova.carro.config.DevConfig.initDB(DevConfig.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 23 common frames omitted
+
