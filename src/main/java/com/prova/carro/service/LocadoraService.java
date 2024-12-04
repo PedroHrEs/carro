@@ -24,9 +24,9 @@ public class LocadoraService {
                 .collect(Collectors.toList());
     }
 
-    public Locadora findById(Integer id) {
-        Optional<Locadora> obj = locadoraRepo.findById(id);
-        return obj.orElseThrow(() -> new ObjectNotFoundException("Locadora não encontrado! Id: "+id));
+    public Locadora findById(int idLocadora) {
+        Optional<Locadora> obj = locadoraRepo.findById(idLocadora);
+        return obj.orElseThrow(() -> new ObjectNotFoundException("Locadora não encontrado! Id: "+idLocadora));
     }
     public Locadora findByCnpj(String cnpj){
         Optional<Locadora> obj = locadoraRepo.findByCnpj(cnpj);

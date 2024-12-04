@@ -22,9 +22,9 @@ public class ResourceExceptionHandler {
 
         StandardError error = new StandardError(System.currentTimeMillis(),HttpStatus.NOT_FOUND.value(),
                 "Object not found", ex.getMessage(),request.getRequestURI());
-
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
     }
+
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public ResponseEntity<StandardError> handleMethodArgumentTypeMismatchException(MethodArgumentTypeMismatchException ex, HttpServletRequest request)
     {

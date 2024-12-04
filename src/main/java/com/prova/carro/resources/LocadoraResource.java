@@ -25,8 +25,8 @@ public class LocadoraResource {
     }
 
     @GetMapping(value = "/{idLocadora}")
-    public ResponseEntity<LocadoraDTO> findById(@PathVariable int id) {
-        Locadora obj = this.locadoraService.findById(id);
+    public ResponseEntity<LocadoraDTO> findById(@PathVariable int idLocadora) {
+        Locadora obj = this.locadoraService.findById(idLocadora);
         return ResponseEntity.ok().body(new LocadoraDTO(obj));
     }
 
@@ -40,7 +40,7 @@ public class LocadoraResource {
     public ResponseEntity<LocadoraDTO> create(@Valid @RequestBody LocadoraDTO dto) {
         Locadora locadora = locadoraService.create(dto);
         //cria o URI para o Recurso criado
-        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(locadora.getIdLocadora()).toUri();
+        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{idLocadora}").buildAndExpand(locadora.getIdLocadora()).toUri();
         // retorna a resposta com o status 201 create e o local do recurso criado
         return ResponseEntity.created(uri).build();
     }
@@ -49,7 +49,7 @@ public class LocadoraResource {
         Locadora obj = locadoraService.update(id, objDto);
         return ResponseEntity.ok().body(new LocadoraDTO(obj));
     }
-    @DeleteMapping(value = "/{id}")
+    @DeleteMapping(value = "/{idLocadora}")
     public ResponseEntity<LocadoraDTO> delete (@PathVariable Integer id){
         locadoraService.delete(id);
         return ResponseEntity.noContent().build();
