@@ -6,6 +6,7 @@ import com.prova.carro.domains.dtos.CarroDTO;
 import com.prova.carro.repositories.CarroRepository;
 import com.prova.carro.repositories.LocadoraRepository;
 import com.prova.carro.service.exceptions.DataIntegrityViolationException;
+import com.prova.carro.service.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,12 +31,12 @@ public class CarroService {
 
     public Carro findById(Integer id) {
         Optional<Carro> obj = carroRepo.findById(id);
-        return obj.orElse(null);
+        return obj.orElseThrow(() -> new ObjectNotFoundException("Carro não encontrado! Id: "+id));
     }
 
     public Carro findByPlaca(String placa) {
         Optional<Carro> obj = carroRepo.findByPlaca(placa);
-        return obj.orElse(null);
+        return obj.orElseThrow(() -> new ObjectNotFoundException("Carro não encontrado! Placa: "+placa));
     }
 
     public Carro create(CarroDTO dto) {

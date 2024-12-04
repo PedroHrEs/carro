@@ -3,12 +3,12 @@ package com.prova.carro.service;
 import com.prova.carro.domains.Aluguel;
 import com.prova.carro.domains.Carro;
 import com.prova.carro.domains.Cliente;
-import com.prova.carro.domains.Locadora;
 import com.prova.carro.domains.dtos.AluguelDTO;
 import com.prova.carro.repositories.AluguelRepository;
 import com.prova.carro.repositories.CarroRepository;
 import com.prova.carro.repositories.ClienteRepository;
 import com.prova.carro.service.exceptions.DataIntegrityViolationException;
+import com.prova.carro.service.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,12 +37,12 @@ public class AluguelService {
 
     public Aluguel findById(Integer id) {
         Optional<Aluguel> obj = aluguelRepo.findById(id);
-        return obj.orElse(null);
+        return obj.orElseThrow(() -> new ObjectNotFoundException("Aluguel não encontrado! Id: "+id));
     }
 
     public Aluguel findbyComprovanteReserva(String comprovanteReserva) {
         Optional<Aluguel> obj = aluguelRepo.findByComprovanteReserva(comprovanteReserva);
-        return obj.orElse(null);
+        return obj.orElseThrow(() -> new ObjectNotFoundException("Aluguel não encontrado! Comprovante Reserva: "+comprovanteReserva));
     }
 
     public Aluguel create(AluguelDTO dto) {

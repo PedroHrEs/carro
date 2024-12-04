@@ -1,5 +1,6 @@
 package com.prova.carro.domains;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.prova.carro.domains.dtos.LocadoraDTO;
 import jakarta.persistence.*;
@@ -27,7 +28,7 @@ public class Locadora {
     @Column(unique = true)
     private String cnpj;
 
-    @JsonManagedReference
+    @JsonIgnore
     @OneToMany(mappedBy = "locadora")
     private List<Carro> carros = new ArrayList<>();
 

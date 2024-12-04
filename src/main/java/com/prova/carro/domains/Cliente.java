@@ -1,5 +1,6 @@
 package com.prova.carro.domains;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.prova.carro.domains.dtos.ClienteDTO;
 import jakarta.persistence.*;
@@ -37,7 +38,7 @@ public class Cliente {
     @Column(unique = true)
     private String email;
 
-    @JsonManagedReference
+    @JsonIgnore
     @OneToMany(mappedBy = "cliente")
     private List<Aluguel> alugueis = new ArrayList<>();
 

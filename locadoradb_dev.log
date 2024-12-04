@@ -1,23 +1,23 @@
-2024-12-01T18:09:00.172-03:00  INFO 12192 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 12192 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
-2024-12-01T18:09:00.173-03:00  INFO 12192 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
-2024-12-01T18:09:00.202-03:00  INFO 12192 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-01T18:09:00.203-03:00  INFO 12192 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-01T18:09:00.658-03:00  INFO 12192 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-01T18:09:00.713-03:00  INFO 12192 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 4 JPA repository interfaces.
-2024-12-01T18:09:01.142-03:00  INFO 12192 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-01T18:09:01.154-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-01T18:09:01.154-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-01T18:09:01.200-03:00  INFO 12192 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-01T18:09:01.200-03:00  INFO 12192 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
-2024-12-01T18:09:01.224-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-01T18:09:01.390-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50c336ee
-2024-12-01T18:09:01.392-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-01T18:09:01.399-03:00  INFO 12192 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
-2024-12-01T18:09:01.496-03:00  INFO 12192 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-01T18:09:01.538-03:00  INFO 12192 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-01T18:09:01.561-03:00  INFO 12192 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-01T18:09:01.739-03:00  INFO 12192 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-01T18:09:01.801-03:00  INFO 12192 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-02T12:29:30.528-03:00  INFO 11216 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 11216 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T12:29:30.536-03:00  INFO 11216 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T12:29:30.575-03:00  INFO 11216 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T12:29:30.576-03:00  INFO 11216 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T12:29:30.914-03:00  INFO 11216 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T12:29:30.950-03:00  INFO 11216 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2024-12-02T12:29:31.468-03:00  INFO 11216 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T12:29:31.478-03:00  INFO 11216 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T12:29:31.478-03:00  INFO 11216 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T12:29:31.515-03:00  INFO 11216 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T12:29:31.516-03:00  INFO 11216 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+2024-12-02T12:29:31.538-03:00  INFO 11216 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T12:29:31.726-03:00  INFO 11216 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c3629fd
+2024-12-02T12:29:31.727-03:00  INFO 11216 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T12:29:31.735-03:00  INFO 11216 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T12:29:31.821-03:00  INFO 11216 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T12:29:31.862-03:00  INFO 11216 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T12:29:31.886-03:00  INFO 11216 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T12:29:32.069-03:00  INFO 11216 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T12:29:32.184-03:00  INFO 11216 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
@@ -25,43 +25,43 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-01T18:09:02.443-03:00  INFO 12192 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-01T18:09:02.453-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.786-03:00  INFO 11216 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T12:29:32.794-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     set client_min_messages = WARNING
-2024-12-01T18:09:02.455-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.796-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists aluguel 
        drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
-2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.833-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists aluguel 
        drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
-2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.833-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists carro 
        drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
-2024-12-01T18:09:02.456-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.834-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists aluguel cascade
-2024-12-01T18:09:02.457-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.846-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists carro cascade
-2024-12-01T18:09:02.457-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.854-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists cliente cascade
-2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.864-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop table if exists locadora cascade
-2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.871-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_aluguel
-2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.877-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_carro
-2024-12-01T18:09:02.458-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.880-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_cliente
-2024-12-01T18:09:02.459-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.883-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     drop sequence if exists seq_locadora
-2024-12-01T18:09:02.462-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.889-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_aluguel start with 1 increment by 50
-2024-12-01T18:09:02.467-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.902-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_carro start with 1 increment by 50
-2024-12-01T18:09:02.468-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.903-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_cliente start with 1 increment by 50
-2024-12-01T18:09:02.469-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.904-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create sequence seq_locadora start with 1 increment by 50
-2024-12-01T18:09:02.472-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.907-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create table aluguel (
         data_fim date,
         data_inicio date,
@@ -73,7 +73,7 @@
         comprovante_reserva varchar(255) not null unique,
         primary key (id)
     )
-2024-12-01T18:09:02.481-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.925-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create table carro (
         conservacao smallint check (conservacao between 0 and 2),
         id_carro integer not null,
@@ -83,7 +83,7 @@
         placa varchar(255) not null unique,
         primary key (id_carro)
     )
-2024-12-01T18:09:02.486-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.930-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create table cliente (
         id integer not null,
         cnh varchar(255) not null unique,
@@ -92,74 +92,1726 @@
         nome_cliente varchar(255) not null,
         primary key (id)
     )
-2024-12-01T18:09:02.493-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.938-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     create table locadora (
         id_locadora integer not null,
         cnpj varchar(255) not null unique,
         nome_locadora varchar(255) not null,
         primary key (id_locadora)
     )
-2024-12-01T18:09:02.498-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.943-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists aluguel 
        add constraint FKi2tsq6coj4xy9viyltgw9x9el 
        foreign key (idcarro) 
        references carro
-2024-12-01T18:09:02.501-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.951-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists aluguel 
        add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
        foreign key (idcliente) 
        references cliente
-2024-12-01T18:09:02.504-03:00 DEBUG 12192 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+2024-12-02T12:29:32.952-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
     alter table if exists carro 
        add constraint FKau3d9xd3fpq886w6s8rtncfvr 
        foreign key (idlocadora) 
        references locadora
-2024-12-01T18:09:02.506-03:00  INFO 12192 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-01T18:09:02.745-03:00  WARN 12192 --- [carro] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'devConfig': Invocation of init method failed
-2024-12-01T18:09:02.745-03:00  INFO 12192 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-01T18:09:02.748-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-01T18:09:02.751-03:00  INFO 12192 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-01T18:09:02.756-03:00  INFO 12192 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-12-01T18:09:02.765-03:00  INFO 12192 --- [carro] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+2024-12-02T12:29:32.955-03:00  INFO 11216 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:29:33.212-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:29:33.251-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:29:33.260-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:29:33.262-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:29:33.264-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T12:29:33.265-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T12:29:33.267-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:29:33.268-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:29:33.270-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:29:33.271-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:29:33.272-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T12:29:33.273-03:00 DEBUG 11216 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T12:29:33.316-03:00  WARN 11216 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T12:29:33.545-03:00  INFO 11216 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T12:29:33.567-03:00  INFO 11216 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T12:29:33.573-03:00  INFO 11216 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.36 seconds (process running for 3.71)
+2024-12-02T12:29:38.721-03:00  INFO 11216 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T12:29:38.721-03:00  INFO 11216 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T12:29:38.723-03:00  INFO 11216 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-02T12:29:38.767-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        c1_0.id_carro,
+        c1_0.conservacao,
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora,
+        c1_0.marca,
+        c1_0.modelo,
+        c1_0.placa,
+        c2_0.id,
+        c2_0.cnh,
+        c2_0.cpf,
+        c2_0.email,
+        c2_0.nome_cliente,
+        a1_0.comprovante_reserva,
+        a1_0.data_fim,
+        a1_0.data_inicio,
+        a1_0.situacao,
+        a1_0.valor_aluguel 
+    from
+        aluguel a1_0 
+    left join
+        carro c1_0 
+            on c1_0.id_carro=a1_0.idcarro 
+    left join
+        locadora l1_0 
+            on l1_0.id_locadora=c1_0.idlocadora 
+    left join
+        cliente c2_0 
+            on c2_0.id=a1_0.idcliente 
+    where
+        a1_0.id=?
+2024-12-02T12:29:38.782-03:00 ERROR 11216 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Aluguel não encontrado! Id: 2] with root cause
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-01T18:09:02.778-03:00 ERROR 12192 --- [carro] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'devConfig': Invocation of init method failed
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.0.jar:6.2.0]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.0.jar:3.4.0]
-	at com.prova.carro.CarroApplication.main(CarroApplication.java:10) ~[classes/:na]
+com.prova.carro.service.exceptions.ObjectNotFoundException: Aluguel não encontrado! Id: 2
+	at com.prova.carro.service.AluguelService.lambda$findById$1(AluguelService.java:40) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.AluguelService.findById(AluguelService.java:40) ~[classes/:na]
+	at com.prova.carro.resources.AluguelResource.findById(AluguelResource.java:29) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
-Caused by: java.lang.NumberFormatException: Character , is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
-	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:608) ~[na:na]
-	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:497) ~[na:na]
-	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:903) ~[na:na]
-	at com.prova.carro.service.DBService.initDB(DBService.java:45) ~[classes/:na]
-	at com.prova.carro.config.DevConfig.initDB(DevConfig.java:19) ~[classes/:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-02T12:30:47.840-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id_carro,
+        c1_0.conservacao,
+        c1_0.idlocadora,
+        c1_0.marca,
+        c1_0.modelo,
+        c1_0.placa 
+    from
+        carro c1_0 
+    where
+        c1_0.placa=?
+2024-12-02T12:30:47.850-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.id_locadora=?
+2024-12-02T12:31:06.458-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.cnh,
+        c1_0.cpf,
+        c1_0.email,
+        c1_0.nome_cliente 
+    from
+        cliente c1_0 
+    where
+        c1_0.cpf=?
+2024-12-02T12:31:09.944-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.cnh,
+        c1_0.cpf,
+        c1_0.email,
+        c1_0.nome_cliente 
+    from
+        cliente c1_0 
+    where
+        c1_0.cpf=?
+2024-12-02T12:31:09.946-03:00 ERROR 11216 --- [carro] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Cliente não encontrado! CPF: 1232] with root cause
+
+com.prova.carro.service.exceptions.ObjectNotFoundException: Cliente não encontrado! CPF: 1232
+	at com.prova.carro.service.ClienteService.lambda$findByCpf$2(ClienteService.java:31) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.ClienteService.findByCpf(ClienteService.java:31) ~[classes/:na]
+	at com.prova.carro.resources.ClienteResource.findByCpf(ClienteResource.java:34) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.2.0.jar:6.2.0]
-	... 23 common frames omitted
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
+2024-12-02T12:31:33.427-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.cnh,
+        c1_0.cpf,
+        c1_0.email,
+        c1_0.nome_cliente 
+    from
+        cliente c1_0 
+    where
+        c1_0.cnh=?
+2024-12-02T12:31:54.665-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.cnpj=?
+2024-12-02T12:31:57.849-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.cnpj=?
+2024-12-02T12:31:57.851-03:00 ERROR 11216 --- [carro] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 2223] with root cause
+
+com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 2223
+	at com.prova.carro.service.LocadoraService.lambda$findByCnpj$2(LocadoraService.java:33) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.LocadoraService.findByCnpj(LocadoraService.java:33) ~[classes/:na]
+	at com.prova.carro.resources.LocadoraResource.findByCnpj(LocadoraResource.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-02T12:38:14.410-03:00 DEBUG 11216 --- [carro] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.cnpj=?
+2024-12-02T12:38:14.411-03:00 ERROR 11216 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233] with root cause
+
+com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233
+	at com.prova.carro.service.LocadoraService.lambda$findByCnpj$2(LocadoraService.java:33) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.LocadoraService.findByCnpj(LocadoraService.java:33) ~[classes/:na]
+	at com.prova.carro.resources.LocadoraResource.findByCnpj(LocadoraResource.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-02T12:40:45.262-03:00  INFO 11216 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T12:40:45.265-03:00  INFO 11216 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T12:40:45.267-03:00  INFO 11216 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:40:45.269-03:00  INFO 11216 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T12:40:45.271-03:00  INFO 11216 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T12:48:01.753-03:00  INFO 14904 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 14904 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T12:48:01.755-03:00  INFO 14904 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T12:48:01.795-03:00  INFO 14904 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T12:48:01.795-03:00  INFO 14904 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T12:48:02.116-03:00  INFO 14904 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T12:48:02.152-03:00  INFO 14904 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2024-12-02T12:48:02.669-03:00  INFO 14904 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T12:48:02.680-03:00  INFO 14904 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T12:48:02.681-03:00  INFO 14904 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T12:48:02.722-03:00  INFO 14904 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T12:48:02.723-03:00  INFO 14904 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2024-12-02T12:48:02.744-03:00  INFO 14904 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T12:48:02.867-03:00  INFO 14904 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f141326
+2024-12-02T12:48:02.868-03:00  INFO 14904 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T12:48:02.876-03:00  INFO 14904 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T12:48:02.973-03:00  INFO 14904 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T12:48:03.015-03:00  INFO 14904 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T12:48:03.037-03:00  INFO 14904 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T12:48:03.230-03:00  INFO 14904 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T12:48:03.305-03:00  INFO 14904 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T12:48:03.921-03:00  INFO 14904 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T12:48:03.929-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T12:48:03.930-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T12:48:03.933-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T12:48:03.933-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T12:48:03.934-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T12:48:03.938-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T12:48:03.940-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T12:48:03.942-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T12:48:03.944-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T12:48:03.945-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T12:48:03.946-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T12:48:03.947-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T12:48:03.950-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T12:48:03.951-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T12:48:03.952-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T12:48:03.953-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T12:48:03.956-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T12:48:03.960-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T12:48:03.965-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T12:48:03.972-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T12:48:03.979-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T12:48:03.980-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T12:48:03.982-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T12:48:03.984-03:00  INFO 14904 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:48:04.237-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:48:04.274-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:48:04.282-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:48:04.283-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:48:04.285-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T12:48:04.286-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T12:48:04.287-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:48:04.289-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:48:04.290-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:48:04.291-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:48:04.292-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T12:48:04.297-03:00 DEBUG 14904 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T12:48:04.343-03:00  WARN 14904 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T12:48:04.571-03:00  INFO 14904 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T12:48:04.594-03:00  INFO 14904 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T12:48:04.600-03:00  INFO 14904 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.174 seconds (process running for 3.51)
+2024-12-02T12:48:10.294-03:00  INFO 14904 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T12:48:10.294-03:00  INFO 14904 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T12:48:10.295-03:00  INFO 14904 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-02T12:48:10.381-03:00 DEBUG 14904 --- [carro] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.cnpj=?
+2024-12-02T12:48:10.395-03:00 ERROR 14904 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233] with root cause
+
+com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233
+	at com.prova.carro.service.LocadoraService.lambda$findByCnpj$2(LocadoraService.java:33) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.LocadoraService.findByCnpj(LocadoraService.java:33) ~[classes/:na]
+	at com.prova.carro.resources.LocadoraResource.findByCnpj(LocadoraResource.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-02T12:48:27.753-03:00  INFO 14904 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T12:48:27.756-03:00  INFO 14904 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T12:48:27.758-03:00  INFO 14904 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:48:27.760-03:00  INFO 14904 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T12:48:27.763-03:00  INFO 14904 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T12:49:27.765-03:00  INFO 3340 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 3340 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T12:49:27.767-03:00  INFO 3340 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T12:49:27.807-03:00  INFO 3340 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T12:49:27.807-03:00  INFO 3340 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T12:49:28.132-03:00  INFO 3340 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T12:49:28.174-03:00  INFO 3340 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2024-12-02T12:49:28.725-03:00  INFO 3340 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T12:49:28.738-03:00  INFO 3340 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T12:49:28.738-03:00  INFO 3340 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T12:49:28.780-03:00  INFO 3340 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T12:49:28.781-03:00  INFO 3340 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2024-12-02T12:49:28.802-03:00  INFO 3340 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T12:49:28.946-03:00  INFO 3340 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d8efc0a
+2024-12-02T12:49:28.947-03:00  INFO 3340 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T12:49:28.955-03:00  INFO 3340 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T12:49:29.051-03:00  INFO 3340 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T12:49:29.090-03:00  INFO 3340 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T12:49:29.113-03:00  INFO 3340 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T12:49:29.301-03:00  INFO 3340 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T12:49:29.364-03:00  INFO 3340 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T12:49:30.017-03:00  INFO 3340 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T12:49:30.026-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T12:49:30.027-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T12:49:30.029-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T12:49:30.029-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T12:49:30.030-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T12:49:30.032-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T12:49:30.034-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T12:49:30.037-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T12:49:30.039-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T12:49:30.039-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T12:49:30.040-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T12:49:30.041-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T12:49:30.045-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T12:49:30.046-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T12:49:30.047-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T12:49:30.048-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T12:49:30.050-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T12:49:30.054-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T12:49:30.059-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T12:49:30.066-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T12:49:30.071-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T12:49:30.072-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T12:49:30.073-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T12:49:30.076-03:00  INFO 3340 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:49:30.333-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:49:30.369-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:49:30.377-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:49:30.378-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:49:30.379-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T12:49:30.380-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T12:49:30.382-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:49:30.383-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:49:30.385-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:49:30.385-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:49:30.386-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T12:49:30.388-03:00 DEBUG 3340 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T12:49:30.435-03:00  WARN 3340 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T12:49:30.676-03:00  INFO 3340 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T12:49:30.700-03:00  INFO 3340 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T12:49:30.706-03:00  INFO 3340 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.247 seconds (process running for 3.584)
+2024-12-02T12:49:43.336-03:00  INFO 3340 --- [carro] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T12:49:43.336-03:00  INFO 3340 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T12:49:43.337-03:00  INFO 3340 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-02T12:49:43.422-03:00 DEBUG 3340 --- [carro] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0 
+    where
+        l1_0.cnpj=?
+2024-12-02T12:49:43.437-03:00 ERROR 3340 --- [carro] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233] with root cause
+
+com.prova.carro.service.exceptions.ObjectNotFoundException: Locadora não encontrada! CNPJ: 12233
+	at com.prova.carro.service.LocadoraService.lambda$findByCnpj$2(LocadoraService.java:33) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.prova.carro.service.LocadoraService.findByCnpj(LocadoraService.java:33) ~[classes/:na]
+	at com.prova.carro.resources.LocadoraResource.findByCnpj(LocadoraResource.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-02T12:49:51.176-03:00  INFO 3340 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T12:49:51.179-03:00  INFO 3340 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T12:49:51.182-03:00  INFO 3340 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:49:51.184-03:00  INFO 3340 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T12:49:51.186-03:00  INFO 3340 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T12:56:48.662-03:00  INFO 10616 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 10616 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T12:56:48.664-03:00  INFO 10616 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T12:56:48.705-03:00  INFO 10616 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T12:56:48.705-03:00  INFO 10616 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T12:56:49.051-03:00  INFO 10616 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T12:56:49.089-03:00  INFO 10616 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2024-12-02T12:56:49.676-03:00  INFO 10616 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T12:56:49.686-03:00  INFO 10616 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T12:56:49.686-03:00  INFO 10616 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T12:56:49.725-03:00  INFO 10616 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T12:56:49.725-03:00  INFO 10616 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1020 ms
+2024-12-02T12:56:49.747-03:00  INFO 10616 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T12:56:49.893-03:00  INFO 10616 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a9d4588
+2024-12-02T12:56:49.894-03:00  INFO 10616 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T12:56:49.904-03:00  INFO 10616 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T12:56:50.012-03:00  INFO 10616 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T12:56:50.053-03:00  INFO 10616 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T12:56:50.079-03:00  INFO 10616 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T12:56:50.267-03:00  INFO 10616 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T12:56:50.330-03:00  INFO 10616 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T12:56:51.037-03:00  INFO 10616 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T12:56:51.047-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T12:56:51.048-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T12:56:51.050-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T12:56:51.050-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T12:56:51.051-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T12:56:51.053-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T12:56:51.055-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T12:56:51.058-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T12:56:51.060-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T12:56:51.060-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T12:56:51.061-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T12:56:51.062-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T12:56:51.065-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T12:56:51.067-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T12:56:51.067-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T12:56:51.069-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T12:56:51.071-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T12:56:51.076-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T12:56:51.082-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T12:56:51.088-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T12:56:51.093-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T12:56:51.095-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T12:56:51.096-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T12:56:51.099-03:00  INFO 10616 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T12:56:51.372-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:56:51.417-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:56:51.426-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T12:56:51.427-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T12:56:51.428-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T12:56:51.430-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T12:56:51.431-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:56:51.432-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:56:51.434-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T12:56:51.435-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T12:56:51.436-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T12:56:51.437-03:00 DEBUG 10616 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T12:56:51.486-03:00  WARN 10616 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T12:56:51.744-03:00  INFO 10616 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T12:56:51.767-03:00  INFO 10616 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T12:56:51.774-03:00  INFO 10616 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.427 seconds (process running for 3.773)
+2024-12-02T12:56:55.877-03:00  INFO 10616 --- [carro] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T12:56:55.877-03:00  INFO 10616 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T12:56:55.878-03:00  INFO 10616 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-02T12:56:55.902-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T12:57:11.405-03:00 DEBUG 10616 --- [carro] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0
+2024-12-02T12:57:17.289-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T12:57:32.533-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T12:57:37.129-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T12:58:07.047-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T12:58:10.193-03:00  WARN 10616 --- [carro] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:00:49.890-03:00  INFO 10616 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T13:00:49.894-03:00  INFO 10616 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T13:00:49.896-03:00  INFO 10616 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:00:49.898-03:00  INFO 10616 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T13:00:49.901-03:00  INFO 10616 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T13:01:09.760-03:00  INFO 11212 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 11212 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T13:01:09.761-03:00  INFO 11212 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T13:01:09.800-03:00  INFO 11212 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T13:01:09.801-03:00  INFO 11212 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T13:01:10.140-03:00  INFO 11212 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T13:01:10.176-03:00  INFO 11212 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2024-12-02T13:01:10.694-03:00  INFO 11212 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T13:01:10.709-03:00  INFO 11212 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T13:01:10.709-03:00  INFO 11212 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T13:01:10.748-03:00  INFO 11212 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T13:01:10.748-03:00  INFO 11212 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2024-12-02T13:01:10.773-03:00  INFO 11212 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T13:01:11.015-03:00  INFO 11212 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38f8e977
+2024-12-02T13:01:11.016-03:00  INFO 11212 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T13:01:11.024-03:00  INFO 11212 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T13:01:11.112-03:00  INFO 11212 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T13:01:11.151-03:00  INFO 11212 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T13:01:11.173-03:00  INFO 11212 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T13:01:11.375-03:00  INFO 11212 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T13:01:11.459-03:00  INFO 11212 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T13:01:12.178-03:00  INFO 11212 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T13:01:12.187-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T13:01:12.188-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T13:01:12.190-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T13:01:12.191-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T13:01:12.192-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T13:01:12.194-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T13:01:12.196-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T13:01:12.198-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T13:01:12.200-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T13:01:12.201-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T13:01:12.202-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T13:01:12.202-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T13:01:12.206-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T13:01:12.208-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T13:01:12.209-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T13:01:12.210-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T13:01:12.212-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T13:01:12.216-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T13:01:12.221-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T13:01:12.230-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T13:01:12.236-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T13:01:12.238-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T13:01:12.239-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T13:01:12.241-03:00  INFO 11212 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:01:12.492-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:01:12.526-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:01:12.535-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:01:12.537-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:01:12.539-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T13:01:12.540-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T13:01:12.542-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:01:12.543-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:01:12.545-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:01:12.546-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:01:12.547-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T13:01:12.549-03:00 DEBUG 11212 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T13:01:12.602-03:00  WARN 11212 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T13:01:12.849-03:00  INFO 11212 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T13:01:12.873-03:00  INFO 11212 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T13:01:12.880-03:00  INFO 11212 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.442 seconds (process running for 3.779)
+2024-12-02T13:01:15.662-03:00  INFO 11212 --- [carro] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T13:01:15.663-03:00  INFO 11212 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T13:01:15.663-03:00  INFO 11212 --- [carro] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-02T13:01:15.686-03:00  WARN 11212 --- [carro] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:02:31.279-03:00  INFO 11212 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T13:02:31.282-03:00  INFO 11212 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T13:02:31.285-03:00  INFO 11212 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:02:31.286-03:00  INFO 11212 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T13:02:31.289-03:00  INFO 11212 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T13:02:37.342-03:00  INFO 2088 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 2088 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T13:02:37.344-03:00  INFO 2088 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T13:02:37.383-03:00  INFO 2088 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T13:02:37.383-03:00  INFO 2088 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T13:02:37.714-03:00  INFO 2088 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T13:02:37.749-03:00  INFO 2088 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2024-12-02T13:02:38.266-03:00  INFO 2088 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T13:02:38.282-03:00  INFO 2088 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T13:02:38.282-03:00  INFO 2088 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T13:02:38.323-03:00  INFO 2088 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T13:02:38.323-03:00  INFO 2088 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2024-12-02T13:02:38.346-03:00  INFO 2088 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T13:02:38.498-03:00  INFO 2088 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e7f186f
+2024-12-02T13:02:38.500-03:00  INFO 2088 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T13:02:38.508-03:00  INFO 2088 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T13:02:38.614-03:00  INFO 2088 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T13:02:38.654-03:00  INFO 2088 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T13:02:38.678-03:00  INFO 2088 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T13:02:38.886-03:00  INFO 2088 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T13:02:38.948-03:00  INFO 2088 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T13:02:39.597-03:00  INFO 2088 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T13:02:39.605-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T13:02:39.606-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T13:02:39.610-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T13:02:39.612-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T13:02:39.612-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T13:02:39.617-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T13:02:39.621-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T13:02:39.625-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T13:02:39.629-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T13:02:39.630-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T13:02:39.630-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T13:02:39.631-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T13:02:39.638-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T13:02:39.640-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T13:02:39.641-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T13:02:39.642-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T13:02:39.650-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T13:02:39.655-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T13:02:39.660-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T13:02:39.668-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T13:02:39.672-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T13:02:39.674-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T13:02:39.675-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T13:02:39.677-03:00  INFO 2088 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:02:39.969-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:02:40.006-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:02:40.014-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:02:40.015-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:02:40.016-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T13:02:40.017-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T13:02:40.019-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:02:40.020-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:02:40.022-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:02:40.023-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:02:40.024-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T13:02:40.025-03:00 DEBUG 2088 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T13:02:40.068-03:00  WARN 2088 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T13:02:40.333-03:00  INFO 2088 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T13:02:40.361-03:00  INFO 2088 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T13:02:40.369-03:00  INFO 2088 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.326 seconds (process running for 3.662)
+2024-12-02T13:02:42.095-03:00  INFO 2088 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T13:02:42.095-03:00  INFO 2088 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T13:02:42.096-03:00  INFO 2088 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-02T13:02:42.122-03:00  WARN 2088 --- [carro] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:02:50.799-03:00 DEBUG 2088 --- [carro] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        l1_0.id_locadora,
+        l1_0.cnpj,
+        l1_0.nome_locadora 
+    from
+        locadora l1_0
+2024-12-02T13:02:55.377-03:00  WARN 2088 --- [carro] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:03:52.342-03:00  INFO 2088 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T13:03:52.345-03:00  INFO 2088 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T13:03:52.347-03:00  INFO 2088 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:03:52.349-03:00  INFO 2088 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T13:03:52.351-03:00  INFO 2088 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-02T13:03:56.702-03:00  INFO 2072 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Starting CarroApplication using Java 21.0.4 with PID 2072 (D:\ProjetosJavaSpring\carro\target\classes started by pedro in D:\ProjetosJavaSpring\carro)
+2024-12-02T13:03:56.704-03:00  INFO 2072 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : The following 1 profile is active: "dev"
+2024-12-02T13:03:56.744-03:00  INFO 2072 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T13:03:56.744-03:00  INFO 2072 --- [carro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T13:03:57.084-03:00  INFO 2072 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T13:03:57.122-03:00  INFO 2072 --- [carro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2024-12-02T13:03:57.640-03:00  INFO 2072 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T13:03:57.651-03:00  INFO 2072 --- [carro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T13:03:57.651-03:00  INFO 2072 --- [carro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T13:03:57.687-03:00  INFO 2072 --- [carro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T13:03:57.687-03:00  INFO 2072 --- [carro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 943 ms
+2024-12-02T13:03:57.709-03:00  INFO 2072 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T13:03:57.899-03:00  INFO 2072 --- [carro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d8a18ed
+2024-12-02T13:03:57.901-03:00  INFO 2072 --- [carro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T13:03:57.913-03:00  INFO 2072 --- [carro] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/locadoradb'
+2024-12-02T13:03:58.036-03:00  INFO 2072 --- [carro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T13:03:58.079-03:00  INFO 2072 --- [carro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-02T13:03:58.113-03:00  INFO 2072 --- [carro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T13:03:58.327-03:00  INFO 2072 --- [carro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T13:03:58.418-03:00  INFO 2072 --- [carro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-02T13:03:59.029-03:00  INFO 2072 --- [carro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T13:03:59.038-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2024-12-02T13:03:59.039-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FKi2tsq6coj4xy9viyltgw9x9el
+2024-12-02T13:03:59.044-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       drop constraint if exists FK5e9yrqaxnhtgbhvafaoisyq4d
+2024-12-02T13:03:59.044-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       drop constraint if exists FKau3d9xd3fpq886w6s8rtncfvr
+2024-12-02T13:03:59.045-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists aluguel cascade
+2024-12-02T13:03:59.047-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists carro cascade
+2024-12-02T13:03:59.049-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cliente cascade
+2024-12-02T13:03:59.051-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists locadora cascade
+2024-12-02T13:03:59.053-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_aluguel
+2024-12-02T13:03:59.054-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_carro
+2024-12-02T13:03:59.055-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cliente
+2024-12-02T13:03:59.055-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_locadora
+2024-12-02T13:03:59.059-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_aluguel start with 1 increment by 50
+2024-12-02T13:03:59.060-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_carro start with 1 increment by 50
+2024-12-02T13:03:59.061-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cliente start with 1 increment by 50
+2024-12-02T13:03:59.062-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_locadora start with 1 increment by 50
+2024-12-02T13:03:59.064-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table aluguel (
+        data_fim date,
+        data_inicio date,
+        id integer not null,
+        idcarro integer,
+        idcliente integer,
+        situacao smallint check (situacao between 0 and 2),
+        valor_aluguel numeric(18,3) not null,
+        comprovante_reserva varchar(255) not null unique,
+        primary key (id)
+    )
+2024-12-02T13:03:59.068-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table carro (
+        conservacao smallint check (conservacao between 0 and 2),
+        id_carro integer not null,
+        idlocadora integer,
+        marca varchar(255) not null,
+        modelo varchar(255) not null,
+        placa varchar(255) not null unique,
+        primary key (id_carro)
+    )
+2024-12-02T13:03:59.076-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table cliente (
+        id integer not null,
+        cnh varchar(255) not null unique,
+        cpf varchar(255) not null unique,
+        email varchar(255) not null unique,
+        nome_cliente varchar(255) not null,
+        primary key (id)
+    )
+2024-12-02T13:03:59.084-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    create table locadora (
+        id_locadora integer not null,
+        cnpj varchar(255) not null unique,
+        nome_locadora varchar(255) not null,
+        primary key (id_locadora)
+    )
+2024-12-02T13:03:59.089-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FKi2tsq6coj4xy9viyltgw9x9el 
+       foreign key (idcarro) 
+       references carro
+2024-12-02T13:03:59.091-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists aluguel 
+       add constraint FK5e9yrqaxnhtgbhvafaoisyq4d 
+       foreign key (idcliente) 
+       references cliente
+2024-12-02T13:03:59.092-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists carro 
+       add constraint FKau3d9xd3fpq886w6s8rtncfvr 
+       foreign key (idlocadora) 
+       references locadora
+2024-12-02T13:03:59.095-03:00  INFO 2072 --- [carro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:03:59.355-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:03:59.393-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:03:59.401-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cliente')
+2024-12-02T13:03:59.402-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cliente
+        (cnh, cpf, email, nome_cliente, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-12-02T13:03:59.404-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_locadora')
+2024-12-02T13:03:59.405-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        locadora
+        (cnpj, nome_locadora, id_locadora) 
+    values
+        (?, ?, ?)
+2024-12-02T13:03:59.406-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:03:59.408-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:03:59.409-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_carro')
+2024-12-02T13:03:59.410-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        carro
+        (conservacao, idlocadora, marca, modelo, placa, id_carro) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-12-02T13:03:59.411-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_aluguel')
+2024-12-02T13:03:59.412-03:00 DEBUG 2072 --- [carro] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        aluguel
+        (idcarro, idcliente, comprovante_reserva, data_fim, data_inicio, situacao, valor_aluguel, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-12-02T13:03:59.459-03:00  WARN 2072 --- [carro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T13:03:59.692-03:00  INFO 2072 --- [carro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T13:03:59.716-03:00  INFO 2072 --- [carro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T13:03:59.721-03:00  INFO 2072 --- [carro] [restartedMain] com.prova.carro.CarroApplication         : Started CarroApplication in 3.355 seconds (process running for 3.69)
+2024-12-02T13:04:03.442-03:00  INFO 2072 --- [carro] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T13:04:03.442-03:00  INFO 2072 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T13:04:03.443-03:00  INFO 2072 --- [carro] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-02T13:04:03.467-03:00  WARN 2072 --- [carro] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:04:07.772-03:00  WARN 2072 --- [carro] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type int is not present]
+2024-12-02T13:05:02.063-03:00  INFO 2072 --- [carro] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T13:05:02.066-03:00  INFO 2072 --- [carro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-02T13:05:02.068-03:00  INFO 2072 --- [carro] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:05:02.070-03:00  INFO 2072 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-02T13:05:02.073-03:00  INFO 2072 --- [carro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

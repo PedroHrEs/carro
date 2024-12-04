@@ -42,7 +42,7 @@ public class DBService {
         Carro carro01 = new Carro(null, "volks", "gol", "as1234", Conservacao.NOVO, locadora01);
         Carro carro02 = new Carro(null, "volks", "golf", "ap2125", Conservacao.USADO, locadora01);
 
-        Aluguel aluguel01 = new Aluguel(null, LocalDate.now(),null, "123123232", new BigDecimal("120,00"), Situacao.ANDAMENTO, cliente01, carro01);
+        Aluguel aluguel01 = new Aluguel(null, LocalDate.now(),null, "123123232", new BigDecimal("120.00"), Situacao.ANDAMENTO, cliente01, carro01);
 
         clienteRepo.save(cliente01);
         clienteRepo.save(cliente02);

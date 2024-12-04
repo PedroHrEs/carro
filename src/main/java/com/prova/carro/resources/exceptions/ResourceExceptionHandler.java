@@ -2,7 +2,6 @@ package com.prova.carro.resources.exceptions;
 
 
 import com.prova.carro.service.exceptions.DataIntegrityViolationException;
-import com.prova.carro.service.exceptions.ObjetctNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
@@ -18,12 +17,11 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 public class ResourceExceptionHandler {
 
 
-    @ExceptionHandler(ObjetctNotFoundException.class)
+    @ExceptionHandler(ObjectNotFoundException.class)
     public ResponseEntity<StandardError> objectNotFoundException(ObjectNotFoundException ex, HttpServletRequest request) {
 
-        StandardError error = new StandardError(System.currentTimeMillis(), HttpStatus.NOT_FOUND.value(),
-                "Object not found", ex.getMessage(), request.getRequestURI());
-
+        StandardError error = new StandardError(System.currentTimeMillis(),HttpStatus.NOT_FOUND.value(),
+                "Object not found", ex.getMessage(),request.getRequestURI());
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
     }
